@@ -1,0 +1,77 @@
+/*Base container for a project page*/
+.project {
+  height: 80%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-section {
+  margin-right: 70px;
+}
+
+.subtitle {
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.project-pic {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width:100%;
+}
+
+/*Bio body links*/
+.project a:-webkit-any-link {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.project a:-webkit-any-link:hover {
+  color: #1d457a;
+  text-decoration: underline;
+}
+
+.footnotes hr {
+  border:0;
+  border-bottom-color: rgb(204, 204, 204);
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  height:.5px;
+  width:100%;
+  margin-right:64px;
+}
+
+.footnotes li {
+  margin-bottom: 10px;
+}
+
+.caption-section {
+  border-left-style: solid;
+  border-width: .125rem;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
+
+.caption-section a {
+  font-family: Consolas,monaco,monospace;
+  font-weight: 700;
+}
+
+.caption-section p {
+  margin-top: .5rem;
+}
+
